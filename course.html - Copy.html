@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+     <title>university website design - easy tutorials</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="uni.html"><img src="eduford_img/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="uni.html">HOME</a></li>
+                    <li><a href="about.html.html">ABOUT</a></li>
+                    <li><a href="course.html - Copy.html">COURSE</a></li>
+                    <li><a href="blog.html - Copy.html">BLOG</a></li>
+                    <li><a href="Contact.html - Copy.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+    <!--courses-->
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elism.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam blanditiis sed amet, quia consequuntur fugit nam dignissimos. Distinctio, aperiam fuga autem nisi, explicabo quisquam nostrum quibusdam consectetur, alias unde vitae.</P>
+
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam blanditiis sed amet, quia consequuntur fugit nam dignissimos. Distinctio, aperiam fuga autem nisi, explicabo quisquam nostrum quibusdam consectetur, alias unde vitae.</P>
+                
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam blanditiis sed amet, quia consequuntur fugit nam dignissimos. Distinctio, aperiam fuga autem nisi, explicabo quisquam nostrum quibusdam consectetur, alias unde vitae.</P>
+                
+            </div>
+        </div>
+    </section>
+     <!--facilities-->
+     <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elism.</p>
+        <div class="row">
+           <div class="facilities-col">
+               <img src="eduford_img/library.png">
+               <h3>World Class Library</h3>
+               <P>Lorem ipsum dolor sit amet consectetur adipisicing elit.</P>
+
+           </div>
+           <div class="facilities-col">
+               <img src="eduford_img/basketball.png">
+               <h3>Largest Play Ground</h3>
+               <P>Lorem ipsum adipisicing elit with good sport team</P>
+               
+           </div>
+           <div class="facilities-col">
+               <img src="eduford_img/cafeteria.png">
+               <h3>Tasty & Healty Food</h3>
+               <P>Lorem ipsum dolor sit amet consectetur </P>
+
+             </div>
+         </div>
+   </section>
+     <!--footer-->
+    <section class="footer">
+         <h4>About Us</h4>
+         <p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Voluptatum excepturi esse at accusamus, aut magni vero harum. Cum sed quo esse quam.</p>
+         <div class="icons">
+            <i class="fa fa-facebook" ></i>
+            <i class="fa fa-twitter" ></i>
+            <i class="fa fa-instagram" ></i>
+            <i class="fa fa-linkedin" ></i>
+         </div>
+         <p>Made With  <i class="fa fa-heart-o" ></i>Easy Tutorials</p>
+    </section>
+
+
+
+
+      <!--javascript-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0"
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
